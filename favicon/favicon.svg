@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond -->
+  <circle cx="32" cy="32" r="32" fill="url(#bg)"/>
+
+  <!-- Roue -->
+  <circle cx="32" cy="32" r="18" fill="none" stroke="#ffffff" stroke-width="4"/>
+
+  <!-- Rayons -->
+  <line x1="32" y1="14" x2="32" y2="50" stroke="#ffffff" stroke-width="3"/>
+  <line x1="14" y1="32" x2="50" y2="32" stroke="#ffffff" stroke-width="3"/>
+  <line x1="20" y1="20" x2="44" y2="44" stroke="#ffffff" stroke-width="3"/>
+  <line x1="44" y1="20" x2="20" y2="44" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Centre -->
+  <circle cx="32" cy="32" r="4" fill="#ffffff"/>
+
+  <!-- Flèche -->
+  <polygon points="32,2 26,14 38,14" fill="#ff4757"/>
+</svg>
