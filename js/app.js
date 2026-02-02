@@ -373,6 +373,19 @@ function displayAllPlayers() {
     .join("");
 }
 
+const navToggle = document.getElementById("navToggle");
+const navUser = document.querySelector(".nav-user");
+
+navToggle.addEventListener("click", () => {
+  navUser.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-btn, .logout-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    navUser.classList.remove("active");
+  });
+});
+
 document.getElementById("spinBtn").addEventListener("click", spinWheel);
 document.getElementById("closeBtn").addEventListener("click", () => {
   document.getElementById("overlay").classList.remove("active");
